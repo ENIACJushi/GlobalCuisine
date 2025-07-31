@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.lasagna_amp",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "lasagna",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-6, 0, -4], "size": [12, 2, 7], "uv": [0, 0]},
+						{"origin": [-6, 3, -3], "size": [12, 0.5, 1], "pivot": [0, 0, 0], "rotation": [-90, 0, 0], "uv": [0, 9]},
+						{"origin": [-4.5, 6, 2], "size": [8, 0.5, 1], "pivot": [0, 0, 0], "rotation": [90, -90, 0], "uv": [0, 11]},
+						{"origin": [-3.5, 3, -8], "size": [6, 0.5, 2], "pivot": [0, 0, 0], "rotation": [0, -90, 0], "uv": [0, 13]},
+						{"origin": [-6, 4, 2], "size": [12, 0.5, 1], "pivot": [0, 0, 0], "rotation": [90, 0, 0], "uv": [0, 9]},
+						{"origin": [-4.5, 6, -3], "size": [8, 0.5, 1], "pivot": [0, 0, 0], "rotation": [-90, -90, 0], "uv": [0, 11]},
+						{"origin": [-2.5, 3, -8], "size": [6, 0.5, 2], "pivot": [0, 0, 0], "rotation": [0, 90, 0], "uv": [0, 13]}
+					]
+				}
+			]
+		}
+	]
+}

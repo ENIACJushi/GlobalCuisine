@@ -1,0 +1,36 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.dish_chinese1_amp",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "dish_chinese1",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-4, 0, -4], "size": [8, 1, 8], "uv": [0, 13]},
+						{"origin": [-6, 1, -6], "size": [12, 1, 12], "uv": [0, 0]},
+						{"origin": [-6, 6, 1.5], "size": [12, 0.5, 1], "pivot": [0, 0, 0], "rotation": [90, 180, 0], "uv": [36, 0]},
+						{"origin": [-6, 6, 1.5], "size": [12, 0.5, 1], "pivot": [0, 0, 0], "rotation": [90, -90, 0], "uv": [36, 0]},
+						{"origin": [-6, 6, 1.5], "size": [12, 0.5, 1], "pivot": [0, 0, 0], "rotation": [90, 0, 0], "uv": [36, 0]},
+						{"origin": [-6, 6, 1.5], "size": [12, 0.5, 1], "pivot": [0, 0, 0], "rotation": [90, 90, 0], "uv": [36, 0]},
+						{"origin": [3, 2, -4], "size": [2, 2, 9], "pivot": [0, 0, 0], "rotation": [0, 5, 0], "uv": [22, 33]},
+						{"origin": [0.5, 2, -4], "size": [2, 2, 9], "pivot": [0, 0, 0], "rotation": [0, 10, 0], "uv": [35, 13]},
+						{"origin": [-2, 2, -4.5], "size": [2, 2, 9], "pivot": [0, 0, 0], "rotation": [0, 15, 0], "uv": [35, 24]},
+						{"origin": [-4.5, 2, -5], "size": [2, 2, 9], "pivot": [0, 0, 0], "rotation": [0, 15, 0], "uv": [35, 35]},
+						{"origin": [-3.5, 4, -4], "size": [2, 2, 9], "pivot": [0, 0, 0], "rotation": [0, 80, 0], "uv": [0, 33]},
+						{"origin": [-1, 4, -4.5], "size": [2, 2, 9], "pivot": [0, 0, 0], "rotation": [0, 80, 0], "uv": [0, 22]},
+						{"origin": [1.5, 4, -5], "size": [2, 2, 9], "pivot": [0, 0, 0], "rotation": [0, 80, 0], "uv": [22, 22]}
+					]
+				}
+			]
+		}
+	]
+}

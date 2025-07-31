@@ -1,0 +1,363 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"properties": {
+				"amp:block_rotate": [
+					2,
+					3,
+					4,
+					5
+				],
+				"amp:desktop" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10,
+					11,
+					12
+				]
+			},
+			"identifier": "amp:monitor_tv"
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('amp:block_rotate') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('amp:block_rotate') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('amp:block_rotate') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('amp:block_rotate') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('amp:desktop') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "monitor_tv_2_amp",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:block_light_emission": 1,
+					"minecraft:on_interact": {
+						"event": "desktop3"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('amp:desktop') == 2",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "monitor_tv_3_amp",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:block_light_emission": 1,
+					"minecraft:on_interact": {
+						"event": "desktop4"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('amp:desktop') == 3",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "monitor_tv_4_amp",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:block_light_emission": 1,
+					"minecraft:on_interact": {
+						"event": "desktop5"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('amp:desktop') == 4",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "monitor_tv_5_amp",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:block_light_emission": 1,
+					"minecraft:on_interact": {
+						"event": "desktop6"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('amp:desktop') == 5",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "monitor_tv_6_amp",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:block_light_emission": 1,
+					"minecraft:on_interact": {
+						"event": "desktop7"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('amp:desktop') == 6",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "monitor_tv_7_amp",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:block_light_emission": 1,
+					"minecraft:on_interact": {
+						"event": "desktop8"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('amp:desktop') == 7",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "monitor_tv_8_amp",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:block_light_emission": 1,
+					"minecraft:on_interact": {
+						"event": "desktop9"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('amp:desktop') == 8",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "monitor_tv_9_amp",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:block_light_emission": 1,
+					"minecraft:on_interact": {
+						"event": "desktop10"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('amp:desktop') == 9",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "monitor_tv_10_amp",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:block_light_emission": 1,
+					"minecraft:on_interact": {
+						"event": "desktop11"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('amp:desktop') == 10",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "monitor_tv_11_amp",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:block_light_emission": 1,
+					"minecraft:on_interact": {
+						"event": "desktop12"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('amp:desktop') == 11",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "monitor_tv_12_amp",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:block_light_emission": 1,
+					"minecraft:on_interact": {
+						"event": "desktop13"
+					}
+				}
+			},
+			{
+				"condition": "query.block_property('amp:desktop') == 12",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "monitor_tv_1_amp",
+							"render_method": "alpha_test"
+						}
+					},
+					"minecraft:block_light_emission": 0
+				}
+			}
+		],
+		"components": {
+			"minecraft:on_player_placing": {
+				"event": "amp:update_rotation"
+			},
+			"minecraft:destroy_time": 2,
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.electric",
+				"category": "Construction"
+			},
+			"minecraft:block_light_emission": 0,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "monitor_tv_1_amp",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:geometry": "geometry.monitor_tv_amp",
+			"minecraft:entity_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					14,
+					16
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					14,
+					16
+				]
+			},
+			"minecraft:block_light_absorption": 0.4,
+			"minecraft:on_interact": {
+				"event": "desktop2"
+			}
+		},
+		"events": {
+			"amp:update_rotation": {
+				"set_block_property": {
+					"amp:block_rotate": "query.cardinal_facing_2d"
+				}
+			},
+			"desktop2": {
+				"set_block_property": {
+					"amp:desktop": 1
+				}
+			},
+			"desktop3": {
+				"set_block_property": {
+					"amp:desktop": 2
+				}
+			},
+			"desktop4": {
+				"set_block_property": {
+					"amp:desktop": 3
+				}
+			},
+			"desktop5": {
+				"set_block_property": {
+					"amp:desktop": 4
+				}
+			},
+			"desktop6": {
+				"set_block_property": {
+					"amp:desktop": 5
+				}
+			},
+			"desktop7": {
+				"set_block_property": {
+					"amp:desktop": 6
+				}
+			},
+			"desktop8": {
+				"set_block_property": {
+					"amp:desktop": 7
+				}
+			},
+			"desktop9": {
+				"set_block_property": {
+					"amp:desktop": 8
+				}
+			},
+			"desktop10": {
+				"set_block_property": {
+					"amp:desktop": 9
+				}
+			},
+			"desktop11": {
+				"set_block_property": {
+					"amp:desktop": 10
+				}
+			},
+			"desktop12": {
+				"set_block_property": {
+					"amp:desktop": 11
+				}
+			},
+			"desktop13": {
+				"set_block_property": {
+					"amp:desktop": 12
+				}
+			}
+		}
+	}
+}

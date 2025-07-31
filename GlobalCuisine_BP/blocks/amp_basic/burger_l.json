@@ -1,0 +1,107 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"properties": {
+				"amp:block_rotate": [
+					2,
+					3,
+					4,
+					5
+				]
+			},
+			"identifier": "amp:burger_l"
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('amp:block_rotate') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('amp:block_rotate') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('amp:block_rotate') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('amp:block_rotate') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			}
+		],
+		"components": {
+			"minecraft:on_player_placing": {
+				"event": "amp:update_rotation"
+			},
+			"minecraft:destroy_time": 2,
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.western",
+				"category": "Construction"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "burger_l_amp",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:geometry": "geometry.burger_l_amp",
+			"minecraft:entity_collision": {
+				"origin": [
+					0,
+					0,
+					0
+				],
+				"size": [
+					0,
+					0,
+					0
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-7,
+					0,
+					-7
+				],
+				"size": [
+					14,
+					7,
+					14
+				]
+			},
+			"minecraft:block_light_absorption": 0.8
+		},
+		"events": {
+			"amp:update_rotation": {
+				"set_block_property": {
+					"amp:block_rotate": "query.cardinal_facing_2d"
+				}
+			}
+		}
+	}
+}

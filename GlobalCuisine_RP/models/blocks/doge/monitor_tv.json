@@ -1,0 +1,32 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.monitor_tv_amp",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "monitor_tv",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-6, 0, -6], "size": [12, 2, 12], "uv": [0, 17]},
+						{"origin": [-7, 2, -2], "size": [14, 7, 10], "uv": [0, 0]},
+						{"origin": [-6.5, 6.4, -7], "size": [13, 4, 10], "pivot": [0, 0, 0], "rotation": [-25, 0, 0], "uv": [0, 31]},
+						{"origin": [-7, 4, 2], "size": [14, 9, 0], "pivot": [0, 0, 0], "rotation": [0, 180, 0], "uv": [0, 45]},
+						{"origin": [-8, 2, -7], "size": [16, 2, 5], "uv": [36, 17]},
+						{"origin": [7, 4, -7], "size": [1, 9, 5], "uv": [28, 45]},
+						{"origin": [-8, 4, -7], "size": [1, 9, 5], "uv": [41, 40]},
+						{"origin": [-7, 4, -6.6], "size": [14, 9, 0], "uv": [38, 0]},
+						{"origin": [-8, 13, -7], "size": [16, 1, 5], "uv": [36, 31]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,633 @@
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"foie_gras_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/foie_gras"
+			]
+		},
+		"soup_miso_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/soup_miso"
+			]
+		},
+		"soup_pork_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/soup_pork"
+			]
+		},
+		"sushi_raw_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/sushi_raw"
+			]
+		},
+		"rice_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/rice"
+			]
+		},
+		"sushi_cooked_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/sushi_cooked"
+			]
+		},
+		"pier1_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/pier1"
+			]
+		},
+		"pier2_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/pier2"
+			]
+		},
+		"tv_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/tv"
+			]
+		},
+		"tablet_1_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/tablet/tablet_1"
+			]
+		},
+		"tablet_2_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/tablet/tablet_2"
+			]
+		},
+		"tablet_3_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/tablet/tablet_3"
+			]
+		},
+		"tablet_4_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/tablet/tablet_4"
+			]
+		},
+		"tablet_5_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/tablet/tablet_5"
+			]
+		},
+		"tablet_6_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/tablet/tablet_6"
+			]
+		},
+		"tablet_7_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/tablet/tablet_7"
+			]
+		},
+		"phone_1_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/phone/phone_1"
+			]
+		},
+		"phone_2_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/phone/phone_2"
+			]
+		},
+		"phone_3_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/phone/phone_3"
+			]
+		},
+		"phone_4_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/phone/phone_4"
+			]
+		},
+		"phone_5_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/phone/phone_5"
+			]
+		},
+		"phone_6_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/phone/phone_6"
+			]
+		},
+		"phone_7_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/phone/phone_7"
+			]
+		},
+		"phone_exhibit_1_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/phone_exhibit/phone_exhibit_1"
+			]
+		},
+		"phone_exhibit_2_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/phone_exhibit/phone_exhibit_2"
+			]
+		},
+		"phone_exhibit_3_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/phone_exhibit/phone_exhibit_3"
+			]
+		},
+		"phone_exhibit_4_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/phone_exhibit/phone_exhibit_4"
+			]
+		},
+		"phone_exhibit_5_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/phone_exhibit/phone_exhibit_5"
+			]
+		},
+		"phone_exhibit_6_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/phone_exhibit/phone_exhibit_6"
+			]
+		},
+		"tv_l_1_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/tv_l/tv_l_1"
+			]
+		},
+		"tv_l_2_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/tv_l/tv_l_2"
+			]
+		},
+		"tv_l_3_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/tv_l/tv_l_3"
+			]
+		},
+		"tv_l_4_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/tv_l/tv_l_4"
+			]
+		},
+		"tv_l_5_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/tv_l/tv_l_5"
+			]
+		},
+		"tv_l_6_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/tv_l/tv_l_6"
+			]
+		},
+		"tv_l_7_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/tv_l/tv_l_7"
+			]
+		},
+		"tv_l_8_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/tv_l/tv_l_8"
+			]
+		},
+		"tv_l_9_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/tv_l/tv_l_9"
+			]
+		},
+		"tv_l_10_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/tv_l/tv_l_10"
+			]
+		},
+		"tv_l_11_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/tv_l/tv_l_11"
+			]
+		},
+		"tv_l_12_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/tv_l/tv_l_12"
+			]
+		},
+		"monitor_pc_1_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/monitor_pc/monitor_pc_1"
+			]
+		},
+		"monitor_pc_2_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/monitor_pc/monitor_pc_2"
+			]
+		},
+		"monitor_pc_3_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/monitor_pc/monitor_pc_3"
+			]
+		},
+		"monitor_pc_4_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/monitor_pc/monitor_pc_4"
+			]
+		},
+		"monitor_pc_5_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/monitor_pc/monitor_pc_5"
+			]
+		},
+		"monitor_pc_6_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/monitor_pc/monitor_pc_6"
+			]
+		},
+		"monitor_pc_7_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/monitor_pc/monitor_pc_7"
+			]
+		},
+		"monitor_pc_8_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/monitor_pc/monitor_pc_8"
+			]
+		},
+		"monitor_pc_9_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/monitor_pc/monitor_pc_9"
+			]
+		},
+		"monitor_pc_10_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/monitor_pc/monitor_pc_10"
+			]
+		},
+		"monitor_pc_11_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/monitor_pc/monitor_pc_11"
+			]
+		},
+		"monitor_pc_12_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/monitor_pc/monitor_pc_12"
+			]
+		},
+		"monitor_tv_1_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/monitor_tv/monitor_tv_1"
+			]
+		},
+		"monitor_tv_2_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/monitor_tv/monitor_tv_2"
+			]
+		},
+		"monitor_tv_3_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/monitor_tv/monitor_tv_3"
+			]
+		},
+		"monitor_tv_4_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/monitor_tv/monitor_tv_4"
+			]
+		},
+		"monitor_tv_5_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/monitor_tv/monitor_tv_5"
+			]
+		},
+		"monitor_tv_6_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/monitor_tv/monitor_tv_6"
+			]
+		},
+		"monitor_tv_7_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/monitor_tv/monitor_tv_7"
+			]
+		},
+		"monitor_tv_8_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/monitor_tv/monitor_tv_8"
+			]
+		},
+		"monitor_tv_9_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/monitor_tv/monitor_tv_9"
+			]
+		},
+		"monitor_tv_10_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/monitor_tv/monitor_tv_10"
+			]
+		},
+		"monitor_tv_11_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/monitor_tv/monitor_tv_11"
+			]
+		},
+		"monitor_tv_12_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/monitor_tv/monitor_tv_12"
+			]
+		},
+		"laptop_1_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/laptop/laptop_1"
+			]
+		},
+		"laptop_2_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/laptop/laptop_2"
+			]
+		},
+		"laptop_3_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/laptop/laptop_3"
+			]
+		},
+		"laptop_4_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/laptop/laptop_4"
+			]
+		},
+		"laptop_5_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/laptop/laptop_5"
+			]
+		},
+		"laptop_6_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/laptop/laptop_6"
+			]
+		},
+		"laptop_7_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/laptop/laptop_7"
+			]
+		},
+		"pc_1_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/pc/pc_1"
+			]
+		},
+		"pc_2_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/pc/pc_2"
+			]
+		},
+		"pc_3_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/pc/pc_3"
+			]
+		},
+		"pc_4_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/pc/pc_4"
+			]
+		},
+		"pc_5_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/pc/pc_5"
+			]
+		},
+		"pc_6_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/pc/pc_6"
+			]
+		},
+		"pc_7_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/pc/pc_7"
+			]
+		},
+		"pc_8_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/pc/pc_8"
+			]
+		},
+		"pc_9_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/pc/pc_9"
+			]
+		},
+		"pc_10_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/pc/pc_10"
+			]
+		},
+		"pc_11_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/pc/pc_11"
+			]
+		},
+		"pc_12_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/pc/pc_12"
+			]
+		},
+		"controller_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/controller"
+			]
+		},
+		"spaghetti_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/spaghetti"
+			]
+		},
+		"cake_tiramisu_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/cake_tiramisu"
+			]
+		},
+		"cake_cheese_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/cake_cheese"
+			]
+		},
+		"hot_pot_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/hot_pot"
+			]
+		},
+		"board_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/board"
+			]
+		},
+		"folding_table_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/folding_table"
+			]
+		},
+		"quarter_table_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/quarter_table"
+			]
+		},
+		"rice_eel_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/rice_eel"
+			]
+		},
+		"tempura_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/tempura"
+			]
+		},
+		"stool_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/stool"
+			]
+		},
+		"electric_meter_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/electric_meter"
+			]
+		},
+		"chilli_chopped_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/chilli_chopped"
+			]
+		},
+		"burger_s_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/burger_s"
+			]
+		},
+		"burger_l_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/burger_l"
+			]
+		},
+		"pizza_american_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/pizza_american"
+			]
+		},
+		"pizza_italian_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/pizza_italian"
+			]
+		},
+		"sushi_roll_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/sushi_roll"
+			]
+		},
+		"lasagna_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/lasagna"
+			]
+		},
+		"soup_doenjang_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/soup_doenjang"
+			]
+		},
+		"pot_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/pot"
+			]
+		},
+		"steak_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/steak"
+			]
+		},
+		"papers_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/papers"
+			]
+		},
+		"calendar_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/calendar"
+			]
+		},
+		"baguette_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/baguette"
+			]
+		},
+		"dish_chinese1_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/dish_chinese1"
+			]
+		},
+		"stone_table_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/stone_table"
+			]
+		},
+		"stone_stool_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/stone_stool"
+			]
+		},
+		"steamer_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/steamer"
+			]
+		},
+		"baozi_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/baozi"
+			]
+		},
+		"jiaozi_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/jiaozi"
+			]
+		},
+		"cake_matcha_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/cake_matcha"
+			]
+		},
+		"baotarou_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/baotarou"
+			]
+		},
+		"fruit_tea_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/fruit_tea"
+			]
+		},
+		"mantou_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/mantou"
+			]
+		},
+		"mooncake_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/mooncake"
+			]
+		},
+		"kourou_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/kourou"
+			]
+		},
+		"money_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/money"
+			]
+		},
+		"soup_tomyum_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/soup_tomyum"
+			]
+		},
+		"choudoufu_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/choudoufu"
+			]
+		},
+		"bubble_tea_amp": {
+			"textures": [
+				"textures/blocks/furniture_amp/bubble_tea"
+			]
+		}
+	}
+}

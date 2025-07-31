@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.electric_meter_amp",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "electric_meter",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [4.5, 10.5, 6], "size": [3, 5, 2], "uv": [20, 19]},
+						{"origin": [4.5, 5, 6], "size": [3, 5, 2], "uv": [12, 0]},
+						{"origin": [4.5, 1, 6], "size": [3, 3, 2], "uv": [22, 5]},
+						{"origin": [1, 10.5, 6], "size": [3, 5, 2], "uv": [0, 17]},
+						{"origin": [1, 5, 6], "size": [3, 5, 2], "uv": [10, 21]},
+						{"origin": [1, 1, 6], "size": [3, 3, 2], "uv": [22, 10]},
+						{"origin": [-2.5, 10.5, 6], "size": [3, 5, 2], "uv": [12, 14]},
+						{"origin": [-2.5, 5, 6], "size": [3, 5, 2], "uv": [12, 7]},
+						{"origin": [-2.5, 1, 6], "size": [3, 3, 2], "uv": [22, 0]},
+						{"origin": [-7.5, 0.5, 6], "size": [4, 15, 2], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

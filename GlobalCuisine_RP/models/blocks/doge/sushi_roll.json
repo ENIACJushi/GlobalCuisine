@@ -1,0 +1,32 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.sushi_roll_amp",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "sushi_roll",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-6, 0, -3], "size": [1, 0.5, 5], "uv": [0, 6]},
+						{"origin": [5, 0, -3], "size": [1, 0.5, 5], "uv": [0, 6]},
+						{"origin": [-7, 0.5, -3], "size": [14, 0.5, 5], "uv": [0, 0]},
+						{"origin": [2.5, 1, -4], "size": [1, 2, 2], "pivot": [0, 0, 0], "rotation": [0, -35, 0], "uv": [0, 12]},
+						{"origin": [1, 1, -3], "size": [1, 2, 2], "pivot": [0, 0, 0], "rotation": [0, -35, 0], "uv": [0, 12]},
+						{"origin": [-0.5, 1, -2], "size": [1, 2, 2], "pivot": [0, 0, 0], "rotation": [0, -35, 0], "uv": [0, 12]},
+						{"origin": [-2, 1, -1], "size": [1, 2, 2], "pivot": [0, 0, 0], "rotation": [0, -35, 0], "uv": [0, 12]},
+						{"origin": [-3.5, 1, 0], "size": [1, 2, 2], "pivot": [0, 0, 0], "rotation": [0, -35, 0], "uv": [0, 12]},
+						{"origin": [-5, 1, 1], "size": [1, 2, 2], "pivot": [0, 0, 0], "rotation": [0, -35, 0], "uv": [0, 12]}
+					]
+				}
+			]
+		}
+	]
+}

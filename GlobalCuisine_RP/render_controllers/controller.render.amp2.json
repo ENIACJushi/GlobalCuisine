@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.amp2": {
+			"geometry": "Geometry.tablet_amp",
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"textures": [
+				"Texture.default"
+			],
+			 "overlay_color": {
+			 "r": 200.0,
+			 "g": 200.0,
+			 "b": 200.0,
+			 "a": "variable.glow_alpha"
+			}
+		}
+	}
+}
+	

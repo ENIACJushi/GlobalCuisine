@@ -1,0 +1,35 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.pizza_american_amp",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "pizza_american",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-5, 0.1, -7], "size": [11, 0, 11], "uv": [0, 11]},
+						{"origin": [-5, 4.6, -12.7], "size": [11, 0, 11], "pivot": [0, 0, 0], "rotation": [-100, 0, 0], "uv": [0, 11]},
+						{"origin": [-5, 4.7, -12.7], "size": [11, 0, 11], "pivot": [0, 0, 0], "rotation": [-100, 0, 0], "uv": [0, 0]},
+						{"origin": [-6, 0.1, -4], "size": [11, 1, 0], "pivot": [0, 0, 0], "rotation": [0, 180, 0], "uv": [27, 26]},
+						{"origin": [-7, 0.1, -6], "size": [11, 1, 0], "pivot": [0, 0, 0], "rotation": [0, -90, 0], "uv": [27, 25]},
+						{"origin": [-4, 0.1, -5], "size": [11, 1, 0], "pivot": [0, 0, 0], "rotation": [0, 90, 0], "uv": [27, 24]},
+						{"origin": [-5, 0.1, -7], "size": [11, 1, 0], "uv": [27, 27]},
+						{"origin": [-5, 3.7, -1.7], "size": [11, 1, 0], "pivot": [0, 0, 0], "rotation": [-100, 0, 0], "uv": [27, 23]},
+						{"origin": [6, 3.7, -12.7], "size": [0, 1, 11], "pivot": [0, 0, 0], "rotation": [-100, 0, 0], "uv": [0, 23]},
+						{"origin": [-5, 3.7, -12.7], "size": [11, 1, 0], "pivot": [0, 0, 0], "rotation": [-100, 0, 0], "uv": [27, 22]},
+						{"origin": [-5, 3.7, -12.7], "size": [0, 1, 11], "pivot": [0, 0, 0], "rotation": [-100, 0, 0], "uv": [0, 22]},
+						{"origin": [-4, 0.1, -6], "size": [9, 1.5, 9], "uv": [0, 22]}
+					]
+				}
+			]
+		}
+	]
+}

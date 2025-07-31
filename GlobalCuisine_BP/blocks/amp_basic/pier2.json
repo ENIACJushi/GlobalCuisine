@@ -1,0 +1,107 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"properties": {
+				"amp:block_rotate": [
+					2,
+					3,
+					4,
+					5
+				]
+			},
+			"identifier": "amp:pier2"
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('amp:block_rotate') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('amp:block_rotate') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('amp:block_rotate') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('amp:block_rotate') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			}
+		],
+		"components": {
+			"minecraft:on_player_placing": {
+				"event": "amp:update_rotation"
+			},
+			"minecraft:destroy_time": 2,
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.Construction",
+				"category": "Construction"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "pier2_amp",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:geometry": "geometry.pier2_amp",
+			"minecraft:entity_collision": {
+				"origin": [
+					-2.5,
+					0,
+					-2.5
+				],
+				"size": [
+					5,
+					16,
+					5
+				]
+			},
+			"minecraft:pick_collision": {
+				"origin": [
+					-2.5,
+					0,
+					-2.5
+				],
+				"size": [
+					5,
+					16,
+					5
+				]
+			},
+			"minecraft:block_light_absorption": 1
+		},
+		"events": {
+			"amp:update_rotation": {
+				"set_block_property": {
+					"amp:block_rotate": "query.cardinal_facing_2d"
+				}
+			}
+		}
+	}
+}

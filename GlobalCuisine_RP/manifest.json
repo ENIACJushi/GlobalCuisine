@@ -1,0 +1,36 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Global Cuisine",
+		"description": "We focus on food, but not just food! I want to make Minecraft a place where Chinese foodies can feel happier, so I made this pack. Hope you enjoy! ",
+		"uuid": "bbfed959-e588-47c0-9b70-2b86ed2f96d3",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			13,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "22c912ee-2f7f-4259-a094-8d76fea33b55",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"1.8.3"
+			]
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.spaghetti_amp",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "spaghetti",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-2, 0, -2], "size": [4, 1, 4], "uv": [18, 5]},
+						{"origin": [-7, 2.5, -7], "size": [10, 0.5, 4], "pivot": [0, 0, 0], "rotation": [0, 180, 0], "uv": [0, 0]},
+						{"origin": [-7, 2.5, -7], "size": [10, 0.5, 4], "pivot": [0, 0, 0], "rotation": [0, -90, 0], "uv": [0, 0]},
+						{"origin": [-3, 0.5, -3], "size": [6, 2, 6], "uv": [0, 5]},
+						{"origin": [-7, 2.5, -7], "size": [10, 0.5, 4], "pivot": [0, 0, 0], "rotation": [0, 90, 0], "uv": [0, 0]},
+						{"origin": [-7, 2.5, -7], "size": [10, 0.5, 4], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "amp:furnace_milk_condensed"
+    },
+
+    
+    "tags": ["furnace", "smoker"],
+    "input": "amp:milk_condensed",
+    "output": "amp_cheese"
+  }
+  
+}
