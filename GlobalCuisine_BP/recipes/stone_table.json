@@ -17,8 +17,8 @@
         "item": "minecraft:andesite"
       }
     },
-    "result": [
+    "result": {
       "item": "amp:stone_table"
-    ]
+    }
   }
 }

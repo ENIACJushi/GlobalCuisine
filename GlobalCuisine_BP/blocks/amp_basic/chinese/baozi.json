@@ -1,0 +1,27 @@
+{
+	"format_version": "1.21.90",
+	"minecraft:block": {
+		"description": {
+			"identifier": "amp:baozi",
+			"menu_category": { "group": "amp:itemGroup.name.chinese", "category": "items" },
+			"traits" : {
+				"minecraft:placement_position": { "enabled_states": [ "minecraft:block_face" ] },
+				"minecraft:placement_direction": { "enabled_states": ["minecraft:cardinal_direction"], "y_rotation_offset": 180.0 }
+			}
+		},
+		"components": {
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 0.2 },
+			"minecraft:material_instances": { "*": { "texture": "baozi_amp", "render_method": "alpha_test" } },
+			"minecraft:geometry": "geometry.baozi_amp",
+			"minecraft:collision_box": { "origin": [ -7.5, 0, -5 ], "size": [ 15, 3, 10 ] },
+			"minecraft:selection_box": { "origin": [ -7.5, 0, -5 ], "size": [ 15, 3, 10 ] },
+			"minecraft:light_dampening": 0.8
+		},
+		"permutations": [
+			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'north'", "components": { "minecraft:transformation": { "rotation": [ 0, 0, 0 ] } } },
+			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'east'", "components": { "minecraft:transformation": { "rotation": [ 0, 270, 0 ] } } },
+			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'west'", "components": { "minecraft:transformation": { "rotation": [ 0, 90, 0 ] } } },
+			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'south'", "components": { "minecraft:transformation": { "rotation": [ 0, 180, 0 ] } } }
+		]
+	}
+}

@@ -1,0 +1,14 @@
+{
+  "name": "touhoulittlemaidbe",
+  "version": "1.0.0",
+  "description": "A bedrock-edition Add-On transplanted by Java mod: TouHou Little Maid. (https://github.com/TartaricAcid/TouhouLittleMaid)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ENIACJushi",
+  "license": "MIT",
+  "devDependencies": {
+    "@minecraft/server": "2.0.0"
+  }
+}

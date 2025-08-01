@@ -1,0 +1,80 @@
+{
+	"format_version": "1.21.90",
+	"minecraft:block": {
+		"description": {
+			"identifier": "amp:laptop",
+			"menu_category": { "group": "amp:itemGroup.name.electric", "category": "items" },
+			"traits" : {
+				"minecraft:placement_position": { "enabled_states": [ "minecraft:block_face" ] },
+				"minecraft:placement_direction": { "enabled_states": ["minecraft:cardinal_direction"], "y_rotation_offset": 180.0 }
+			},
+			"states": {
+				"amp:desktop" : [ 0, 1, 2, 3, 4, 5, 6 ]
+			}
+		},
+		"permutations": [
+			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'north'", "components": { "minecraft:transformation": { "rotation": [ 0, 0, 0 ] } } },
+			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'east'", "components": { "minecraft:transformation": { "rotation": [ 0, 270, 0 ] } } },
+			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'west'", "components": { "minecraft:transformation": { "rotation": [ 0, 90, 0 ] } } },
+			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'south'", "components": { "minecraft:transformation": { "rotation": [ 0, 180, 0 ] } } },
+			{
+				"condition": "query.block_state('amp:desktop') == 0",
+				"components": {
+					"minecraft:material_instances": { "*": { "texture": "laptop_1_amp", "render_method": "alpha_test" } }
+				}
+			},
+			{
+				"condition": "query.block_state('amp:desktop') == 1",
+				"components": {
+					"minecraft:material_instances": { "*": { "texture": "laptop_2_amp", "render_method": "alpha_test" } },
+					"minecraft:light_emission": 0.9
+				}
+			},
+			{
+				"condition": "query.block_state('amp:desktop') == 2",
+				"components": {
+					"minecraft:material_instances": { "*": { "texture": "laptop_3_amp", "render_method": "alpha_test" } },
+					"minecraft:light_emission": 0.9
+				}
+			},
+			{
+				"condition": "query.block_state('amp:desktop') == 3",
+				"components": {
+					"minecraft:material_instances": { "*": { "texture": "laptop_4_amp", "render_method": "alpha_test" } },
+					"minecraft:light_emission": 0.9
+				}
+			},
+			{
+				"condition": "query.block_state('amp:desktop') == 4",
+				"components": {
+					"minecraft:material_instances": { "*": { "texture": "laptop_5_amp", "render_method": "alpha_test" } },
+					"minecraft:light_emission": 0.9
+				}
+			},
+			{
+				"condition": "query.block_state('amp:desktop') == 5",
+				"components": {
+					"minecraft:material_instances": { "*": { "texture": "laptop_6_amp", "render_method": "alpha_test" } },
+					"minecraft:light_emission": 0.9
+				}
+			},
+			{
+				"condition": "query.block_state('amp:desktop') == 6",
+				"components": {
+					"minecraft:material_instances": { "*": { "texture": "laptop_7_amp", "render_method": "alpha_test" } },
+					"minecraft:light_emission": 0.9
+				}
+			}
+		],
+		"components": {
+			"amp:circular_states": {},
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 0.2 },
+			"minecraft:light_emission": 0,
+			"minecraft:material_instances": { "*": { "texture": "laptop_1_amp", "render_method": "alpha_test" } },
+			"minecraft:geometry": "geometry.laptop_amp",
+			"minecraft:collision_box": { "origin": [ -7, 0, -7 ], "size": [ 14, 8, 11 ] },
+			"minecraft:selection_box": { "origin": [ -7, 0, -7 ], "size": [ 14, 8, 11 ] },
+			"minecraft:light_dampening": 1
+		}
+	}
+}

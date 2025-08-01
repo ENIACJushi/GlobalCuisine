@@ -1,0 +1,116 @@
+{
+	"format_version": "1.21.90",
+	"minecraft:block": {
+		"description": {
+			"identifier": "amp:tv_l",
+			"menu_category": { "group": "amp:itemGroup.name.electric", "category": "items" },
+			"states": {
+				"amp:desktop" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+			},
+			"traits" : {
+				"minecraft:placement_position": { "enabled_states": [ "minecraft:block_face" ] },
+				"minecraft:placement_direction": { "enabled_states": ["minecraft:cardinal_direction"], "y_rotation_offset": 180.0 }
+			}
+		},
+		"permutations": [
+			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'north'", "components": { "minecraft:transformation": { "rotation": [ 0, 0, 0 ] } } },
+			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'east'", "components": { "minecraft:transformation": { "rotation": [ 0, 270, 0 ] } } },
+			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'west'", "components": { "minecraft:transformation": { "rotation": [ 0, 90, 0 ] } } },
+			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'south'", "components": { "minecraft:transformation": { "rotation": [ 0, 180, 0 ] } } },
+			{
+				"condition": "query.block_state('amp:desktop') == 0",
+				"components": {
+					"minecraft:material_instances": { "*": { "texture": "tv_l_1_amp", "render_method": "alpha_test" } },
+					"minecraft:light_emission": 0
+				}
+			},
+			{
+				"condition": "query.block_state('amp:desktop') == 1",
+				"components": {
+					"minecraft:material_instances": { "*": { "texture": "tv_l_2_amp", "render_method": "alpha_test" } },
+					"minecraft:light_emission": 1
+				}
+			},
+			{
+				"condition": "query.block_state('amp:desktop') == 2",
+				"components": {
+					"minecraft:material_instances": { "*": { "texture": "tv_l_3_amp", "render_method": "alpha_test" } },
+					"minecraft:light_emission": 1
+				}
+			},
+			{
+				"condition": "query.block_state('amp:desktop') == 3",
+				"components": {
+					"minecraft:material_instances": { "*": { "texture": "tv_l_4_amp", "render_method": "alpha_test" } },
+					"minecraft:light_emission": 1
+				}
+			},
+			{
+				"condition": "query.block_state('amp:desktop') == 4",
+				"components": {
+					"minecraft:material_instances": { "*": { "texture": "tv_l_5_amp", "render_method": "alpha_test" } },
+					"minecraft:light_emission": 1
+				}
+			},
+			{
+				"condition": "query.block_state('amp:desktop') == 5",
+				"components": {
+					"minecraft:material_instances": { "*": { "texture": "tv_l_6_amp", "render_method": "alpha_test" } },
+					"minecraft:light_emission": 1
+				}
+			},
+			{
+				"condition": "query.block_state('amp:desktop') == 6",
+				"components": {
+					"minecraft:material_instances": { "*": { "texture": "tv_l_7_amp", "render_method": "alpha_test" } },
+					"minecraft:light_emission": 1
+				}
+			},
+			{
+				"condition": "query.block_state('amp:desktop') == 7",
+				"components": {
+					"minecraft:material_instances": { "*": { "texture": "tv_l_8_amp", "render_method": "alpha_test" } },
+					"minecraft:light_emission": 1
+				}
+			},
+			{
+				"condition": "query.block_state('amp:desktop') == 8",
+				"components": {
+					"minecraft:material_instances": { "*": { "texture": "tv_l_9_amp", "render_method": "alpha_test" } },
+					"minecraft:light_emission": 1
+				}
+			},
+			{
+				"condition": "query.block_state('amp:desktop') == 9",
+				"components": {
+					"minecraft:material_instances": { "*": { "texture": "tv_l_10_amp", "render_method": "alpha_test" } },
+					"minecraft:light_emission": 1
+				}
+			},
+			{
+				"condition": "query.block_state('amp:desktop') == 10",
+				"components": {
+					"minecraft:material_instances": { "*": { "texture": "tv_l_11_amp", "render_method": "alpha_test" } },
+					"minecraft:light_emission": 1
+				}
+			},
+			{
+				"condition": "query.block_state('amp:desktop') == 11",
+				"components": {
+					"minecraft:material_instances": { "*": { "texture": "tv_l_12_amp", "render_method": "alpha_test" } },
+					"minecraft:light_emission": 1
+				}
+			}
+		],
+		"components": {
+			"amp:circular_states": {},
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 0.2 },
+			"minecraft:light_emission": 0,
+			"minecraft:material_instances": { "*": { "texture": "tv_l_1_amp", "render_method": "alpha_test" } },
+			"minecraft:geometry": "geometry.tv_l_amp",
+			"minecraft:collision_box": { "origin": [ -8, 0, 7 ], "size": [ 16, 16, 2 ] },
+			"minecraft:selection_box": { "origin": [ -8, 0, 7 ], "size": [ 16, 16, 2 ] },
+			"minecraft:light_dampening": 0
+		}
+	}
+}

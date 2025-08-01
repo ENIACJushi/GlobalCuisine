@@ -11,11 +11,22 @@
 		],
 		"min_engine_version": [
 			1,
-			16,
-			100
+			21,
+			90
 		]
 	},
 	"modules": [
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "0b4b0ba8-3375-4391-b43b-c0ca5e83ee1e",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
 		{
 			"type": "data",
 			"uuid": "6bff84ed-b610-4f63-a957-b70ed46e5184",
@@ -26,13 +37,6 @@
 			]
 		}
 	],
-	"metadata": {
-		"generated_with": {
-			"bridge": [
-				"1.8.3"
-			]
-		}
-	},
 	"dependencies": [
 		{
 			"version": [
@@ -41,6 +45,10 @@
 				0
 			],
 			"uuid": "bbfed959-e588-47c0-9b70-2b86ed2f96d3"
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.0.0"
 		}
 	]
 }

@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.90",
+  "minecraft:crafting_items_catalog": {
+    "categories": [
+      {
+        "category_name": "items",
+        "groups": [
+          { "group_identifier": { "icon": "amp:soup_tomyum", "name": "amp:itemGroup.name.asia" }, "items": [] },
+          { "group_identifier": { "icon": "amp:baotarou", "name": "amp:itemGroup.name.chinese" }, "items": [] },
+          { "group_identifier": { "icon": "amp:pier1", "name": "amp:itemGroup.name.construction" }, "items": [] },
+          { "group_identifier": { "icon": "amp:controller", "name": "amp:itemGroup.name.electric" }, "items": [] },
+          { "group_identifier": { "icon": "amp:board", "name": "amp:itemGroup.name.furniture" }, "items": [] },
+          { "group_identifier": { "icon": "amp:rice_eel", "name": "amp:itemGroup.name.japanese" }, "items": [] },
+          { "group_identifier": { "icon": "amp:soup_doenjang", "name": "amp:itemGroup.name.korean" }, "items": [] },
+          { "group_identifier": { "icon": "amp:baguette", "name": "amp:itemGroup.name.western" }, "items": [] }
+        ]
+      }
+    ]
+  }
+}

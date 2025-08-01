@@ -56,3 +56,12 @@ tile.amp:monitor_tv.name=老电视显示器
 tile.amp:controller.name=控制终端
 tile.amp:laptop.name=笔记本电脑
 tile.amp:pc.name=电脑
+
+amp:itemGroup.name.asia=亚洲
+amp:itemGroup.name.chinese=中式
+amp:itemGroup.name.construction=结构
+amp:itemGroup.name.electric=电器
+amp:itemGroup.name.furniture=家具
+amp:itemGroup.name.japanese=日式
+amp:itemGroup.name.korean=韩式
+amp:itemGroup.name.western=西式

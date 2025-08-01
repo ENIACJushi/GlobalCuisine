@@ -2,7 +2,7 @@
   "format_version": "1.21.70",
   "minecraft:item": {
     "description": {
-      "identifier": "amp:milk_condensed",
+      "identifier": "amp:cheese",
       "menu_category": { "category": "equipment", "group": "minecraft:amp:itemGroup.name.miscFood" }
     },
     "components": {
@@ -13,8 +13,8 @@
         "movement_modifier": 0.4
       },
       "minecraft:food": {
-        "nutrition": 3,
-        "saturation_modifier": "normal"
+        "nutrition": 8,
+        "saturation_modifier": "good"
       }
     }
   }

@@ -55,3 +55,13 @@ tile.amp:monitor_tv.name=TV monitor
 tile.amp:controller.name=Controller
 tile.amp:laptop.name=Laptop
 tile.amp:pc.name=PC
+
+
+amp:itemGroup.name.asia=Asia
+amp:itemGroup.name.chinese=Chinese
+amp:itemGroup.name.construction=Construction
+amp:itemGroup.name.electric=Electric
+amp:itemGroup.name.furniture=Furniture
+amp:itemGroup.name.japanese=Japanese
+amp:itemGroup.name.korean=Korean
+amp:itemGroup.name.western=Western
