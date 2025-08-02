@@ -1,8 +1,8 @@
 /**
- * 在实体 components 加上 "amp:seat": {}, 然后在下面定义坐垫类型和位置
+ * 在方块 components 加上 "amp:seat": {}, 然后在下面定义坐垫类型和位置
  */
 export const BLOCK_SEAT = {
-  "amp:stone_stool": {
+  "amp:stone_stool": { // 方块id
     "type": "amp:seat", // 坐垫类型，即坐垫实体标识符
     "pos": [0, 8, 0] // 以 1/16 方块边长为单位，以方块底部中央为原点，会随着方块旋转而旋转
   },
