@@ -1,14 +1,15 @@
-import {BLOCK_CIRCULAR_STATES} from "../../data/BlockCircularStates";
+import {BlockCCDataHelper} from "./BlockCCDataHelper";
 
 export class BlockCircularStatesManager {
   /**
    * 注册自定义事件
    */
   static registerCC(e) {
-    e.blockComponentRegistry.registerCustomComponent("amp:circular_states", {
+    e.blockComponentRegistry.registerCustomComponent('amp:circular_states', {
       onPlayerInteract(e) {
+        // 获取方块自定义数据
         let block = e.block;
-        let blockStateData = BLOCK_CIRCULAR_STATES[block.typeId];
+        let blockStateData = BlockCCDataHelper.getBlockData('amp:circular_states', block.typeId);
         if (!blockStateData) {
           return;
         }

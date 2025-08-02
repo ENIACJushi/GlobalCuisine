@@ -65,3 +65,5 @@ amp:itemGroup.name.furniture=家具
 amp:itemGroup.name.japanese=日式
 amp:itemGroup.name.korean=韩式
 amp:itemGroup.name.western=西式
+
+action.hint.exit.amp:seat=歇会儿

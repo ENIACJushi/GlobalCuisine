@@ -10,6 +10,7 @@
 			}
 		},
 		"components": {
+			"amp:seat": {},
 			"minecraft:destructible_by_mining": { "seconds_to_destroy": 0.2 },
 			"minecraft:material_instances": { "*": { "texture": "board_amp", "render_method": "alpha_test" } },
 			"minecraft:geometry": "geometry.board_amp",

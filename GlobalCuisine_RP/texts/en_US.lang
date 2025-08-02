@@ -65,3 +65,5 @@ amp:itemGroup.name.furniture=Furniture
 amp:itemGroup.name.japanese=Japanese
 amp:itemGroup.name.korean=Korean
 amp:itemGroup.name.western=Western
+
+action.hint.exit.amp:seat=Take a break

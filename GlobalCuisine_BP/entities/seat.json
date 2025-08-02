@@ -1,0 +1,39 @@
+{
+  "format_version": "1.18.10",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "amp:seat",
+      "is_spawnable": false,
+      "is_summonable": true
+    },
+    "component_groups": {
+      "despawn":{ "minecraft:instant_despawn":{ "remove_child_entities": false } }
+    },
+    "components": {
+      "minecraft:movement": { "value": 0 },
+      "minecraft:input_ground_controlled": { },
+      "minecraft:rideable": {
+        "controlling_seat": 0,
+        "crouching_skip_interact": true,
+        "family_types": [ "player" ],
+        "pull_in_entities": false,
+        "rider_can_interact": false,
+        "seat_count": 1,
+        "seats":[
+          {
+            "position": [ 0, 0, 0 ]
+          }
+        ],
+        "on_rider_exit_event": "despawn"
+      },
+      "minecraft:damage_sensor": { "triggers": [ { "cause": "all", "deals_damage": false } ] },
+      "minecraft:collision_box": { "width": 0, "height": 0 },
+      "minecraft:pushable": { "is_pushable": false, "is_pushable_by_piston": false },
+      "minecraft:persistent": {},
+      "minecraft:knockback_resistance": { "value": 1.0 }
+    },
+    "events": {
+      "despawn": { "add": { "component_groups": [ "despawn" ] } }
+    }
+  }
+}
