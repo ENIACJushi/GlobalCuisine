@@ -7,11 +7,18 @@
 			"traits" : {
 				"minecraft:placement_position": { "enabled_states": [ "minecraft:block_face" ] },
 				"minecraft:placement_direction": { "enabled_states": ["minecraft:cardinal_direction"], "y_rotation_offset": 180.0 }
+			},
+			"states": {
+				"amp:eat_remain" : [ 5, 4, 3, 2, 1, 0 ]
 			}
 		},
 		"components": {
+			"amp:food": {},
+			"minecraft:liquid_detection": { "detection_rules": [ { "on_liquid_touches": "no_reaction", "can_contain_liquid": true } ] },
 			"minecraft:destructible_by_mining": { "seconds_to_destroy": 0.2 },
-			"minecraft:material_instances": { "*": { "texture": "baozi_amp", "render_method": "alpha_test" } },
+			"minecraft:material_instances": {
+				"*": { "texture": "baozi_amp", "render_method": "alpha_test" }
+			},
 			"minecraft:geometry": "geometry.baozi_amp",
 			"minecraft:collision_box": { "origin": [ -7.5, 0, -5 ], "size": [ 15, 3, 10 ] },
 			"minecraft:selection_box": { "origin": [ -7.5, 0, -5 ], "size": [ 15, 3, 10 ] },
@@ -21,7 +28,30 @@
 			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'north'", "components": { "minecraft:transformation": { "rotation": [ 0, 0, 0 ] } } },
 			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'east'", "components": { "minecraft:transformation": { "rotation": [ 0, 270, 0 ] } } },
 			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'west'", "components": { "minecraft:transformation": { "rotation": [ 0, 90, 0 ] } } },
-			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'south'", "components": { "minecraft:transformation": { "rotation": [ 0, 180, 0 ] } } }
+			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'south'", "components": { "minecraft:transformation": { "rotation": [ 0, 180, 0 ] } } },
+			{
+				"condition": "query.block_state('amp:eat_remain') < 5",
+				"components": {
+					"minecraft:material_instances": { "eat_5": { "texture": "amp_void", "render_method": "alpha_test" } },
+					"minecraft:loot": "loot_tables/farmersdelight/empty.json"
+				}
+			},
+			{
+				"condition": "query.block_state('amp:eat_remain') < 4",
+				"components": { "minecraft:material_instances": { "eat_4": { "texture": "amp_void", "render_method": "alpha_test" } } }
+			},
+			{
+				"condition": "query.block_state('amp:eat_remain') < 3",
+				"components": { "minecraft:material_instances": { "eat_3": { "texture": "amp_void", "render_method": "alpha_test" } } }
+			},
+			{
+				"condition": "query.block_state('amp:eat_remain') < 2",
+				"components": { "minecraft:material_instances": { "eat_2": { "texture": "amp_void", "render_method": "alpha_test" } } }
+			},
+			{
+				"condition": "query.block_state('amp:eat_remain') < 1",
+				"components": { "minecraft:material_instances": { "eat_1": { "texture": "amp_void", "render_method": "alpha_test" } } }
+			}
 		]
 	}
 }

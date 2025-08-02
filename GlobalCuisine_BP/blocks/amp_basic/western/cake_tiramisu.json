@@ -16,6 +16,7 @@
 			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'south'", "components": { "minecraft:transformation": { "rotation": [ 0, 180, 0 ] } } }
 		],
 		"components": {
+			"minecraft:liquid_detection": { "detection_rules": [ { "on_liquid_touches": "no_reaction", "can_contain_liquid": true } ] },
 			"minecraft:destructible_by_mining": { "seconds_to_destroy": 0.2 },
 			"minecraft:material_instances": { "*": { "texture": "cake_tiramisu_amp", "render_method": "alpha_test" } },
 			"minecraft:geometry": "geometry.cake_tiramisu_amp",

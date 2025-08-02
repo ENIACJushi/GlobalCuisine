@@ -4,6 +4,11 @@
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
+		"amp_void": {
+			"textures": [
+				"textures/blocks/amp_void"
+			]
+		},
 		"foie_gras_amp": {
 			"textures": [
 				"textures/blocks/furniture_amp/foie_gras"

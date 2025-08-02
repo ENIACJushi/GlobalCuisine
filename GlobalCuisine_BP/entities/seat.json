@@ -30,7 +30,8 @@
       "minecraft:collision_box": { "width": 0, "height": 0 },
       "minecraft:pushable": { "is_pushable": false, "is_pushable_by_piston": false },
       "minecraft:persistent": {},
-      "minecraft:knockback_resistance": { "value": 1.0 }
+      "minecraft:knockback_resistance": { "value": 1.0 },
+      "minecraft:physics": { "has_gravity": false }
     },
     "events": {
       "despawn": { "add": { "component_groups": [ "despawn" ] } }

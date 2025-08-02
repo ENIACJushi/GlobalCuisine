@@ -1,5 +1,6 @@
 import {BLOCK_CIRCULAR_STATES} from "../../data/BlockCircularStates";
 import {BLOCK_SEAT} from "../../data/BlockSeat";
+import {BLOCK_FOOD} from "../../data/BlockFood";
 
 /**
  * 帮助获取自定义组件数据
@@ -8,6 +9,7 @@ export class BlockCCDataHelper {
   static categoryData = {
     'amp:circular_states': BLOCK_CIRCULAR_STATES,
     'amp:seat': BLOCK_SEAT,
+    'amp:food': BLOCK_FOOD,
   }
   /**
    * 获取指定类别的方块数据

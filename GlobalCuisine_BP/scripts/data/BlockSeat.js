@@ -14,4 +14,5 @@ export const BLOCK_SEAT = {
   "amp:folding_table": { "type": "amp:seat", "pos": [0, 16, 0] },
   "amp:quarter_table": { "type": "amp:seat", "pos": [0, 16, 0] },
   "amp:board": { "type": "amp:seat", "pos": [0, 16, 0] },
+  "amp:stone_table": { "type": "amp:seat", "pos": [0, 16, 0] },
 }

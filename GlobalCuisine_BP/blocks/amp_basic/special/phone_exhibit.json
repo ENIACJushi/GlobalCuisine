@@ -59,6 +59,7 @@
 		],
 		"components": {
 			"amp:circular_states": {},
+			"minecraft:liquid_detection": { "detection_rules": [ { "on_liquid_touches": "no_reaction", "can_contain_liquid": true } ] },
 			"minecraft:destructible_by_mining": { "seconds_to_destroy": 0.2 },
 			"minecraft:light_emission": 0.4,
 			"minecraft:material_instances": { "*": { "texture": "phone_exhibit_1_amp", "render_method": "alpha_test" } },
