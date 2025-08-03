@@ -2,9 +2,10 @@ import {BlockPermutation} from "@minecraft/server";
 import {BlockCCDataHelper} from "./BlockCCDataHelper";
 
 /**
- *
+ * 方块食物
  */
 export class BlockFoodManager {
+  static STATE_NAME = 'amp:eat_step';
   static registerCC(e) {
     e.blockComponentRegistry.registerCustomComponent('amp:food', {
       onPlayerInteract(e) {
@@ -19,20 +20,19 @@ export class BlockFoodManager {
           return;
         }
         // 状态修改
-        let stateName = blockStateData['state'];
-        let old = block.permutation.getState(stateName);
+        let old = block.permutation.getState(BlockFoodManager.STATE_NAME);
         if (old === undefined) {
           return;
         }
         // 吃完了 直接消除
-        if (old === 0) {
+        if (old === blockStateData['step']) {
           block.setPermutation(BlockPermutation.resolve('air'));
           player.dimension.playSound('amp.food_container_pop', block.location);
           return;
         }
         // 吃一点
         player.dimension.playSound('random.eat', player.location);
-        block.setPermutation(block.permutation.withState(stateName, old - 1));
+        block.setPermutation(block.permutation.withState(BlockFoodManager.STATE_NAME, old + 1));
         // 施加效果
         for(let effect of blockStateData['effects']) {
           if (effect['index'] === 'all' || effect['index'] === old) {

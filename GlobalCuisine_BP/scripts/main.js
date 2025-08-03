@@ -1,4 +1,4 @@
-import { system } from "@minecraft/server";
+import { system, world } from "@minecraft/server";
 import {BlockCircularStatesManager} from "./src/blocks/BlockCircularStatesManager";
 import {BlockSeatManager} from "./src/blocks/BlockSeatManager";
 import {BlockFoodManager} from "./src/blocks/BlockFoodManager";
@@ -8,4 +8,20 @@ system.beforeEvents.startup.subscribe((e) => {
   BlockCircularStatesManager.registerCC(e);
   BlockSeatManager.registerCC(e);
   BlockFoodManager.registerCC(e);
+});
+
+world.beforeEvents.playerBreakBlock.subscribe((e) => {
+  let block = e.block;
+  for (let tag of block.getTags()) {
+    // 不完整食物方块被破坏时直接设为空气，避免掉落物品
+    if (tag === 'amp:food_block') {
+      if (block.permutation.getState("amp:eat_step") !== 0) {
+        e.cancel = true;
+        system.run(() => {
+          block.dimension.playSound('dig.stone', block.location);
+          block.dimension.setBlockType(block.location, 'air');
+        });
+      }
+    }
+  }
 });
