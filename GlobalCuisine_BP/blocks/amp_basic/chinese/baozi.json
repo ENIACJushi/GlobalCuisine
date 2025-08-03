@@ -30,27 +30,64 @@
 			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'west'", "components": { "minecraft:transformation": { "rotation": [ 0, 90, 0 ] } } },
 			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'south'", "components": { "minecraft:transformation": { "rotation": [ 0, 180, 0 ] } } },
 			{
-				"condition": "query.block_state('amp:eat_remain') < 5",
+				"condition": "query.block_state('amp:eat_remain') == 4",
 				"components": {
-					"minecraft:material_instances": { "eat_5": { "texture": "amp_void", "render_method": "alpha_test" } },
+					"minecraft:material_instances": {
+						"*": { "texture": "baozi_amp", "render_method": "alpha_test" },
+						"eat_5": { "texture": "amp_void", "render_method": "alpha_test" }
+					},
 					"minecraft:loot": "loot_tables/farmersdelight/empty.json"
 				}
 			},
 			{
-				"condition": "query.block_state('amp:eat_remain') < 4",
-				"components": { "minecraft:material_instances": { "eat_4": { "texture": "amp_void", "render_method": "alpha_test" } } }
+				"condition": "query.block_state('amp:eat_remain') == 3",
+				"components": {
+					"minecraft:material_instances": {
+						"*": { "texture": "baozi_amp", "render_method": "alpha_test" },
+						"eat_5": { "texture": "amp_void", "render_method": "alpha_test" },
+						"eat_4": { "texture": "amp_void", "render_method": "alpha_test" }
+					},
+					"minecraft:loot": "loot_tables/farmersdelight/empty.json"
+				}
 			},
 			{
-				"condition": "query.block_state('amp:eat_remain') < 3",
-				"components": { "minecraft:material_instances": { "eat_3": { "texture": "amp_void", "render_method": "alpha_test" } } }
+				"condition": "query.block_state('amp:eat_remain') == 2",
+				"components": {
+					"minecraft:material_instances": {
+						"*": { "texture": "baozi_amp", "render_method": "alpha_test" },
+						"eat_5": { "texture": "amp_void", "render_method": "alpha_test" },
+						"eat_4": { "texture": "amp_void", "render_method": "alpha_test" },
+						"eat_3": { "texture": "amp_void", "render_method": "alpha_test" }
+					},
+					"minecraft:loot": "loot_tables/farmersdelight/empty.json"
+				}
 			},
 			{
-				"condition": "query.block_state('amp:eat_remain') < 2",
-				"components": { "minecraft:material_instances": { "eat_2": { "texture": "amp_void", "render_method": "alpha_test" } } }
+				"condition": "query.block_state('amp:eat_remain') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"*": { "texture": "baozi_amp", "render_method": "alpha_test" },
+						"eat_5": { "texture": "amp_void", "render_method": "alpha_test" },
+						"eat_4": { "texture": "amp_void", "render_method": "alpha_test" },
+						"eat_3": { "texture": "amp_void", "render_method": "alpha_test" },
+						"eat_2": { "texture": "amp_void", "render_method": "alpha_test" }
+					},
+					"minecraft:loot": "loot_tables/farmersdelight/empty.json"
+				}
 			},
 			{
-				"condition": "query.block_state('amp:eat_remain') < 1",
-				"components": { "minecraft:material_instances": { "eat_1": { "texture": "amp_void", "render_method": "alpha_test" } } }
+				"condition": "query.block_state('amp:eat_remain') == 0",
+				"components": {
+					"minecraft:material_instances": {
+						"*": { "texture": "baozi_amp", "render_method": "alpha_test" },
+						"eat_5": { "texture": "amp_void", "render_method": "alpha_test" },
+						"eat_4": { "texture": "amp_void", "render_method": "alpha_test" },
+						"eat_3": { "texture": "amp_void", "render_method": "alpha_test" },
+						"eat_2": { "texture": "amp_void", "render_method": "alpha_test" },
+						"eat_1": { "texture": "amp_void", "render_method": "alpha_test" }
+					},
+					"minecraft:loot": "loot_tables/farmersdelight/empty.json"
+				}
 			}
 		]
 	}

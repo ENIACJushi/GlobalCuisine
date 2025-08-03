@@ -27,16 +27,32 @@ export class BlockFoodManager {
         // 吃完了 直接消除
         if (old === 0) {
           block.setPermutation(BlockPermutation.resolve('air'));
+          player.dimension.playSound('amp.food_container_pop', block.location);
           return;
         }
         // 吃一点
-        player
-        old--;
-        block.setPermutation(block.permutation.withState(stateName, old));
+        player.dimension.playSound('random.eat', player.location);
+        block.setPermutation(block.permutation.withState(stateName, old - 1));
+        // 施加效果
+        for(let effect of blockStateData['effects']) {
+          if (effect['index'] === 'all' || effect['index'] === old) {
+            BlockFoodManager.addEffect(player, effect);
+          }
+        }
       },
       onPlayerBreak(e) {
 
       }
     })
+  }
+
+  static addEffect(player, effect) {
+    if (effect.health) {
+      let healthComponent = player.getComponent("health");
+      healthComponent.setCurrentValue(Math.min(
+        healthComponent.effectiveMax,
+        healthComponent.currentValue + effect.health,
+      ));
+    }
   }
 }
