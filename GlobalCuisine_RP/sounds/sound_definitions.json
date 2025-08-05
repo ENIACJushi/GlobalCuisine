@@ -5,37 +5,37 @@
        "category": "player",
        "sounds": [
          {
-           "is3D" : false,
-           "load_on_low_memory": false,
+           "is3D" : true,
+           "load_on_low_memory": true,
            "name" : "sounds/random/pop",
            "volume" : 0.5, "pitch": 1, "weight" : 4
          },
          {
-           "is3D" : false,
+           "is3D" : true,
            "load_on_low_memory": false,
            "name" : "sounds/random/pop",
            "volume" : 0.5, "pitch": 1.2, "weight" : 3
          },
          {
-           "is3D" : false,
+           "is3D" : true,
            "load_on_low_memory": false,
            "name" : "sounds/random/pop",
            "volume" : 0.5, "pitch": 1.4, "weight" : 2
          },
          {
-           "is3D" : false,
+           "is3D" : true,
            "load_on_low_memory": false,
            "name" : "sounds/random/pop",
            "volume" : 0.5, "pitch": 1.6, "weight" : 3
          },
          {
-           "is3D" : false,
+           "is3D" : true,
            "load_on_low_memory": false,
            "name" : "sounds/random/pop",
            "volume" : 0.5, "pitch": 1.8, "weight" : 4
          },
          {
-           "is3D" : false,
+           "is3D" : true,
            "load_on_low_memory": true,
            "name" : "sounds/random/pop",
            "volume" : 0.5, "pitch": 2, "weight" : 5

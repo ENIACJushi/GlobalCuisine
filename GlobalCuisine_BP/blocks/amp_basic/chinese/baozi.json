@@ -37,7 +37,7 @@
 						"*": { "texture": "baozi_amp", "render_method": "alpha_test" },
 						"eat_1": { "texture": "amp_void", "render_method": "alpha_test" }
 					},
-					"minecraft:loot": "loot_tables/farmersdelight/empty.json"
+					"minecraft:loot": "loot_tables/amp/empty.json"
 				}
 			},
 			{
@@ -48,7 +48,7 @@
 						"eat_1": { "texture": "amp_void", "render_method": "alpha_test" },
 						"eat_2": { "texture": "amp_void", "render_method": "alpha_test" }
 					},
-					"minecraft:loot": "loot_tables/farmersdelight/empty.json"
+					"minecraft:loot": "loot_tables/amp/empty.json"
 				}
 			},
 			{
@@ -60,7 +60,7 @@
 						"eat_2": { "texture": "amp_void", "render_method": "alpha_test" },
 						"eat_3": { "texture": "amp_void", "render_method": "alpha_test" }
 					},
-					"minecraft:loot": "loot_tables/farmersdelight/empty.json"
+					"minecraft:loot": "loot_tables/amp/empty.json"
 				}
 			},
 			{
@@ -73,7 +73,7 @@
 						"eat_3": { "texture": "amp_void", "render_method": "alpha_test" },
 						"eat_4": { "texture": "amp_void", "render_method": "alpha_test" }
 					},
-					"minecraft:loot": "loot_tables/farmersdelight/empty.json"
+					"minecraft:loot": "loot_tables/amp/empty.json"
 				}
 			},
 			{
@@ -87,7 +87,7 @@
 						"eat_4": { "texture": "amp_void", "render_method": "alpha_test" },
 						"eat_5": { "texture": "amp_void", "render_method": "alpha_test" }
 					},
-					"minecraft:loot": "loot_tables/farmersdelight/empty.json"
+					"minecraft:loot": "loot_tables/amp/empty.json"
 				}
 			}
 		]

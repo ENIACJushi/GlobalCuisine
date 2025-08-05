@@ -31,7 +31,8 @@ export class BlockFoodManager {
           return;
         }
         // 吃一点
-        player.dimension.playSound('random.eat', player.location);
+        player.dimension.playSound(BlockFoodManager
+          .getEatSound(blockStateData['eat_sounds'], old), player.location);
         block.setPermutation(block.permutation.withState(BlockFoodManager.STATE_NAME, old + 1));
         // 施加效果
         for(let effect of blockStateData['effects']) {
@@ -54,5 +55,27 @@ export class BlockFoodManager {
         healthComponent.currentValue + effect.health,
       ));
     }
+  }
+
+  /**
+   * 获取食用音效
+   * @param {string|string[]} eat_sounds
+   * @param {number} state
+   */
+  static getEatSound(eat_sounds, state) {
+    // 未定义时返回默认音效
+    if (eat_sounds === undefined) {
+      return 'random.eat';
+    }
+    // 为字符串代表所有食用阶段共用一个声音
+    if (typeof eat_sounds === 'string') {
+      return eat_sounds;
+    }
+    // 为数组则根据 state 确定
+    if (eat_sounds.length <= state) {
+      // 若声音数量比状态少，则后续的进度使用表中最后一个声音
+      return eat_sounds[eat_sounds.length - 1];
+    }
+    return eat_sounds[state];
   }
 }
