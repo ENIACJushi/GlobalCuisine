@@ -11,8 +11,10 @@ export const BLOCK_SEAT = {
   "amp:money": { "type": "amp:seat", "pos": [0, 16, 0] },
   "amp:stool": { "type": "amp:seat", "pos": [0, 5.5, 0] },
   "amp:papers": { "type": "amp:seat", "pos": [0, 16, 0] },
-  "amp:folding_table": { "type": "amp:seat", "pos": [0, 16, 0] },
-  "amp:quarter_table": { "type": "amp:seat", "pos": [0, 16, 0] },
-  "amp:board": { "type": "amp:seat", "pos": [0, 16, 0] },
-  "amp:stone_table": { "type": "amp:seat", "pos": [0, 16, 0] },
+
+  // 已弃用
+  // "amp:folding_table": { "type": "amp:seat", "pos": [0, 16, 0] },
+  // "amp:quarter_table": { "type": "amp:seat", "pos": [0, 16, 0] },
+  // "amp:board": { "type": "amp:seat", "pos": [0, 16, 0] },
+  // "amp:stone_table": { "type": "amp:seat", "pos": [0, 16, 0] },
 }
