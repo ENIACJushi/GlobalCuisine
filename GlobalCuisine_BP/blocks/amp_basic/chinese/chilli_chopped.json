@@ -7,15 +7,14 @@
 			"traits" : {
 				"minecraft:placement_position": { "enabled_states": [ "minecraft:block_face" ] },
 				"minecraft:placement_direction": { "enabled_states": ["minecraft:cardinal_direction"], "y_rotation_offset": 180.0 }
+			},
+			"states": {
+				"amp:eat_step" : [ 0, 1, 2, 3, 4, 5 ]
 			}
 		},
-    "permutations": [
-			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'north'", "components": { "minecraft:transformation": { "rotation": [ 0, 0, 0 ] } } },
-			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'east'", "components": { "minecraft:transformation": { "rotation": [ 0, 270, 0 ] } } },
-			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'west'", "components": { "minecraft:transformation": { "rotation": [ 0, 90, 0 ] } } },
-			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'south'", "components": { "minecraft:transformation": { "rotation": [ 0, 180, 0 ] } } }
-		],
 		"components": {
+			"amp:food": {},
+			"tag:amp:food_block": {},
 			"minecraft:liquid_detection": { "detection_rules": [ { "on_liquid_touches": "no_reaction", "can_contain_liquid": true } ] },
 			"minecraft:destructible_by_mining": { "seconds_to_destroy": 0.2 },
 			"minecraft:material_instances": { "*": { "texture": "chilli_chopped_amp", "render_method": "alpha_test" } },
@@ -23,6 +22,72 @@
 			"minecraft:collision_box": { "origin": [ 0, 0, -3 ], "size": [ 6, 6, 6 ] },
 			"minecraft:selection_box": { "origin": [ 0, 0, -3 ], "size": [ 6, 6, 6 ] },
 			"minecraft:light_dampening": 1
-		}
+		},
+		"permutations": [
+			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'north'", "components": { "minecraft:transformation": { "rotation": [ 0, 0, 0 ] } } },
+			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'east'", "components": { "minecraft:transformation": { "rotation": [ 0, 270, 0 ] } } },
+			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'west'", "components": { "minecraft:transformation": { "rotation": [ 0, 90, 0 ] } } },
+			{ "condition": "query.block_state('minecraft:cardinal_direction') == 'south'", "components": { "minecraft:transformation": { "rotation": [ 0, 180, 0 ] } } },
+			{
+				"condition": "query.block_state('amp:eat_step') == 1",
+				"components": {
+					"minecraft:material_instances": {
+						"*": { "texture": "chilli_chopped_amp", "render_method": "alpha_test" },
+						"eat_1": { "texture": "amp_void", "render_method": "alpha_test" }
+					},
+					"minecraft:loot": "loot_tables/amp/empty.json"
+				}
+			},
+			{
+				"condition": "query.block_state('amp:eat_step') == 2",
+				"components": {
+					"minecraft:material_instances": {
+						"*": { "texture": "chilli_chopped_amp", "render_method": "alpha_test" },
+						"eat_1": { "texture": "amp_void", "render_method": "alpha_test" },
+						"eat_2": { "texture": "amp_void", "render_method": "alpha_test" }
+					},
+					"minecraft:loot": "loot_tables/amp/empty.json"
+				}
+			},
+			{
+				"condition": "query.block_state('amp:eat_step') == 3",
+				"components": {
+					"minecraft:material_instances": {
+						"*": { "texture": "chilli_chopped_amp", "render_method": "alpha_test" },
+						"eat_1": { "texture": "amp_void", "render_method": "alpha_test" },
+						"eat_2": { "texture": "amp_void", "render_method": "alpha_test" },
+						"eat_3": { "texture": "amp_void", "render_method": "alpha_test" }
+					},
+					"minecraft:loot": "loot_tables/amp/empty.json"
+				}
+			},
+			{
+				"condition": "query.block_state('amp:eat_step') == 4",
+				"components": {
+					"minecraft:material_instances": {
+						"*": { "texture": "chilli_chopped_amp", "render_method": "alpha_test" },
+						"eat_1": { "texture": "amp_void", "render_method": "alpha_test" },
+						"eat_2": { "texture": "amp_void", "render_method": "alpha_test" },
+						"eat_3": { "texture": "amp_void", "render_method": "alpha_test" },
+						"eat_4": { "texture": "amp_void", "render_method": "alpha_test" }
+					},
+					"minecraft:loot": "loot_tables/amp/empty.json"
+				}
+			},
+			{
+				"condition": "query.block_state('amp:eat_step') == 5",
+				"components": {
+					"minecraft:material_instances": {
+						"*": { "texture": "chilli_chopped_amp", "render_method": "alpha_test" },
+						"eat_1": { "texture": "amp_void", "render_method": "alpha_test" },
+						"eat_2": { "texture": "amp_void", "render_method": "alpha_test" },
+						"eat_3": { "texture": "amp_void", "render_method": "alpha_test" },
+						"eat_4": { "texture": "amp_void", "render_method": "alpha_test" },
+						"eat_5": { "texture": "amp_void", "render_method": "alpha_test" }
+					},
+					"minecraft:loot": "loot_tables/amp/empty.json"
+				}
+			}
+		]
 	}
 }

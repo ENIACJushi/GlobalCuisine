@@ -1,4 +1,4 @@
-import {BlockPermutation} from "@minecraft/server";
+import {BlockPermutation, system} from "@minecraft/server";
 import {BlockCCDataHelper} from "./BlockCCDataHelper";
 
 /**
@@ -48,13 +48,28 @@ export class BlockFoodManager {
   }
 
   static addEffect(player, effect) {
-    if (effect.health) {
-      let healthComponent = player.getComponent("health");
-      healthComponent.setCurrentValue(Math.min(
-        healthComponent.effectiveMax,
-        healthComponent.currentValue + effect.health,
-      ));
-    }
+    system.runTimeout(() => {
+      // 补血
+      if (effect.health) {
+        let healthComponent = player.getComponent("health");
+        healthComponent.setCurrentValue(Math.min(
+          healthComponent.effectiveMax,
+          healthComponent.currentValue + effect.health,
+        ));
+      }
+      // 着火
+      if (effect.fire) {
+        player.setOnFire(effect.fire);
+      }
+      // 药水效果
+      if (effect.effect) {
+        let data = effect.effect;
+        player.addEffect(data.type, data.duration, {
+          amplifier: data.amplifier ?? 1,
+          showParticles: data.showParticles ?? true,
+        });
+      }
+    }, effect.timeout ?? 0);
   }
 
   /**
