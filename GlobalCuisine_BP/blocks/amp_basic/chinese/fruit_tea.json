@@ -42,9 +42,10 @@
 				"condition": "query.block_state('amp:eat_step') == 1",
 				"components": {
 					"minecraft:material_instances": {
-						"*": { "texture": "fruit_tea_amp", "render_method": "alpha_test" },
+						"*": { "texture": "fruit_tea_amp", "render_method": "blend" },
+						"alpha_test": { "texture": "fruit_tea_amp", "render_method": "alpha_test" },
 						"cup": { "texture": "white_stained_glass", "render_method": "blend" },
-						"void": { "texture": "amp_void", "render_method": "blend" },
+						"void": { "texture": "amp_void", "render_method": "alpha_test" },
 						"eat_1": { "texture": "amp_void", "render_method": "alpha_test" },
 						"eat_2": { "texture": "fruit_tea_amp", "render_method": "alpha_test" },
 						"eat_3": { "texture": "amp_void", "render_method": "alpha_test" },
@@ -58,9 +59,10 @@
 				"condition": "query.block_state('amp:eat_step') == 2",
 				"components": {
 					"minecraft:material_instances": {
-						"*": { "texture": "fruit_tea_amp", "render_method": "alpha_test" },
+						"*": { "texture": "fruit_tea_amp", "render_method": "blend" },
+						"alpha_test": { "texture": "fruit_tea_amp", "render_method": "alpha_test" },
 						"cup": { "texture": "white_stained_glass", "render_method": "blend" },
-						"void": { "texture": "amp_void", "render_method": "blend" },
+						"void": { "texture": "amp_void", "render_method": "alpha_test" },
 						"eat_1": { "texture": "amp_void", "render_method": "alpha_test" },
 						"eat_2": { "texture": "amp_void", "render_method": "alpha_test" },
 						"eat_3": { "texture": "fruit_tea_amp", "render_method": "alpha_test" },
@@ -74,9 +76,10 @@
 				"condition": "query.block_state('amp:eat_step') == 3",
 				"components": {
 					"minecraft:material_instances": {
-						"*": { "texture": "fruit_tea_amp", "render_method": "alpha_test" },
+						"*": { "texture": "fruit_tea_amp", "render_method": "blend" },
+						"alpha_test": { "texture": "fruit_tea_amp", "render_method": "alpha_test" },
 						"cup": { "texture": "white_stained_glass", "render_method": "blend" },
-						"void": { "texture": "amp_void", "render_method": "blend" },
+						"void": { "texture": "amp_void", "render_method": "alpha_test" },
 						"eat_1": { "texture": "amp_void", "render_method": "alpha_test" },
 						"eat_2": { "texture": "amp_void", "render_method": "alpha_test" },
 						"eat_3": { "texture": "amp_void", "render_method": "alpha_test" },
@@ -90,9 +93,10 @@
 				"condition": "query.block_state('amp:eat_step') == 4",
 				"components": {
 					"minecraft:material_instances": {
-						"*": { "texture": "fruit_tea_amp", "render_method": "alpha_test" },
+						"*": { "texture": "fruit_tea_amp", "render_method": "blend" },
+						"alpha_test": { "texture": "fruit_tea_amp", "render_method": "alpha_test" },
 						"cup": { "texture": "white_stained_glass", "render_method": "blend" },
-						"void": { "texture": "amp_void", "render_method": "blend" },
+						"void": { "texture": "amp_void", "render_method": "alpha_test" },
 						"eat_1": { "texture": "amp_void", "render_method": "alpha_test" },
 						"eat_2": { "texture": "amp_void", "render_method": "alpha_test" },
 						"eat_3": { "texture": "amp_void", "render_method": "alpha_test" },

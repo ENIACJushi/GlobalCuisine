@@ -44,7 +44,8 @@
 				"condition": "query.block_state('amp:eat_step') == 1",
 				"components": {
 					"minecraft:material_instances": {
-						"*": { "texture": "bubble_tea_amp", "render_method": "alpha_test" },
+						"*": { "texture": "bubble_tea_amp", "render_method": "blend" },
+						"alpha_test": { "texture": "bubble_tea_amp", "render_method": "alpha_test" },
 						"cup": { "texture": "white_stained_glass", "render_method": "blend" },
 						"lid": { "texture": "bubble_tea_amp", "render_method": "alpha_test" },
 						"lid_broken": { "texture": "amp_void", "render_method": "alpha_test" },
@@ -62,7 +63,8 @@
 				"condition": "query.block_state('amp:eat_step') == 2",
 				"components": {
 					"minecraft:material_instances": {
-						"*": { "texture": "bubble_tea_amp", "render_method": "alpha_test" },
+						"*": { "texture": "bubble_tea_amp", "render_method": "blend" },
+						"alpha_test": { "texture": "bubble_tea_amp", "render_method": "alpha_test" },
 						"cup": { "texture": "white_stained_glass", "render_method": "blend" },
 						"lid": { "texture": "bubble_tea_amp", "render_method": "alpha_test" },
 						"lid_broken": { "texture": "amp_void", "render_method": "alpha_test" },
@@ -80,7 +82,8 @@
 				"condition": "query.block_state('amp:eat_step') == 3",
 				"components": {
 					"minecraft:material_instances": {
-						"*": { "texture": "bubble_tea_amp", "render_method": "alpha_test" },
+						"*": { "texture": "bubble_tea_amp", "render_method": "blend" },
+						"alpha_test": { "texture": "bubble_tea_amp", "render_method": "alpha_test" },
 						"cup": { "texture": "white_stained_glass", "render_method": "blend" },
 						"lid": { "texture": "bubble_tea_amp", "render_method": "alpha_test" },
 						"lid_broken": { "texture": "amp_void", "render_method": "alpha_test" },
@@ -98,7 +101,8 @@
 				"condition": "query.block_state('amp:eat_step') == 4",
 				"components": {
 					"minecraft:material_instances": {
-						"*": { "texture": "bubble_tea_amp", "render_method": "alpha_test" },
+						"*": { "texture": "bubble_tea_amp", "render_method": "blend" },
+						"alpha_test": { "texture": "bubble_tea_amp", "render_method": "alpha_test" },
 						"cup": { "texture": "white_stained_glass", "render_method": "blend" },
 						"lid": { "texture": "amp_void", "render_method": "alpha_test" },
 						"lid_broken": { "texture": "bubble_tea_amp", "render_method": "alpha_test" },
