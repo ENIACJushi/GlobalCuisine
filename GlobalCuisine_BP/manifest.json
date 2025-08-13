@@ -19,7 +19,7 @@
 		{
 			"type": "script",
 			"language": "javascript",
-			"uuid": "0b4b0ba8-3375-4391-b43b-c0ca5e83ee1e",
+			"uuid": "748cce15-6520-4fd8-84b2-31badf942d0c",
 			"entry": "scripts/main.js",
 			"version": [
 				1,
@@ -29,7 +29,7 @@
 		},
 		{
 			"type": "data",
-			"uuid": "6bff84ed-b610-4f63-a957-b70ed46e5184",
+			"uuid": "030d9717-8e13-4d46-8c4f-dcc33439a210",
 			"version": [
 				1,
 				1,
