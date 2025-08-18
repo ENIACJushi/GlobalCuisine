@@ -4,7 +4,8 @@
     "description": {
       "identifier": "amp:seat",
       "is_spawnable": false,
-      "is_summonable": true
+      "is_summonable": true,
+      "runtime_identifier": "minecraft:arrow"
     },
     "component_groups": {
       "despawn":{ "minecraft:instant_despawn":{ "remove_child_entities": false } }
@@ -12,7 +13,7 @@
     "components": {
       "minecraft:movement": { "value": 0 },
       "minecraft:underwater_movement": { "value": 0 },
-      "minecraft:water_movement": { "drag_factor": 1 },
+      "minecraft:water_movement": { "drag_factor": 0 },
       "minecraft:input_ground_controlled": { },
       "minecraft:rideable": {
         "controlling_seat": 0,
