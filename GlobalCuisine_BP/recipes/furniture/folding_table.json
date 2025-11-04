@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "amp:folding_table"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "WW",
+      "II"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_bars"
+      },
+      "W": {
+        "tag": "minecraft:wooden_slabs"
+      }
+    },
+    "result": {
+      "item": "amp:folding_table",
+      "count": 2
+    }
+  }
+}

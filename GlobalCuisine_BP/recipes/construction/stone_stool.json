@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "amp:stone_stool"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "SS",
+      "DD",
+      "DD"
+    ],
+    "key": {
+      "D": {
+        "item": "minecraft:polished_diorite"
+      },
+      "S": {
+        "item": "minecraft:polished_diorite_slab"
+      }
+    },
+    "result": {
+      "item": "amp:stone_stool",
+      "count": 2
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "amp:papers"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "PPP",
+      "PIP",
+      "PPP"
+    ],
+    "key": {
+      "P": {
+        "item": "minecraft:paper"
+      },
+      "I": {
+        "item": "minecraft:ink_sac"
+      }
+    },
+    "result": {
+      "item": "amp:papers",
+      "count": 4
+    }
+  }
+}

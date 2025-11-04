@@ -25,3 +25,19 @@ world.beforeEvents.playerBreakBlock.subscribe((e) => {
     }
   }
 });
+
+
+system.afterEvents.scriptEventReceive.subscribe((event)=> {
+  let item = getPlayerMainHand(event.sourceEntity);
+  if (item) {
+    world.sendMessage(item.typeId);
+    world.sendMessage(item.getTags().join(', '));
+  }
+}, {'namespaces': ['doge']});
+
+function getPlayerMainHand(player){
+  let container = player.getComponent("inventory").container;
+  let slot = player.selectedSlotIndex;
+  // pl.getComponent("equippable").getEquipment(EquipmentSlot.Mainhand);
+  return container.getItem(slot);
+}

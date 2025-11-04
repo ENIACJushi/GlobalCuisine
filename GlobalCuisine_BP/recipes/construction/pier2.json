@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "amp:pier2"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "D",
+      "D"
+    ],
+    "key": {
+      "D": {
+        "item": "minecraft:diorite_wall"
+      }
+    },
+    "result": {
+      "item": "amp:pier2",
+      "count": 2
+    }
+  }
+}

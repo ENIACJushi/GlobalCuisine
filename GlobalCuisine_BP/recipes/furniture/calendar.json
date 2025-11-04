@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "amp:calendar"
+    },
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:paper"
+      },
+      {
+        "item": "minecraft:clock"
+      }
+    ],
+    "result": {
+      "item": "amp:calendar",
+      "count": 1
+    }
+  }
+}

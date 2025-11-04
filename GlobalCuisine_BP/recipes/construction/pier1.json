@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "amp:pier1"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "DD",
+      "DD",
+      "SS"
+    ],
+    "key": {
+      "D": {
+        "item": "minecraft:polished_diorite"
+      },
+      "S": {
+        "item": "minecraft:polished_diorite_slab"
+      }
+    },
+    "result": {
+      "item": "amp:pier1",
+      "count": 2
+    }
+  }
+}

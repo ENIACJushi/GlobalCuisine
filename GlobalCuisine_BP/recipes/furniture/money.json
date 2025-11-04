@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "amp:money"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "PPP",
+      "PIP",
+      "PPP"
+    ],
+    "key": {
+      "P": {
+        "item": "minecraft:paper"
+      },
+      "I": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "result": {
+      "item": "amp:money",
+      "count": 4
+    }
+  }
+}

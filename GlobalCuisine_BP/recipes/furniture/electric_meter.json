@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "amp:electric_meter"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " W ",
+      "WCW",
+      " W "
+    ],
+    "key": {
+      "W": {
+        "tag": "minecraft:planks"
+      },
+      "C": {
+        "item": "minecraft:copper_bars"
+      }
+    },
+    "result": {
+      "item": "amp:electric_meter",
+      "count": 1
+    }
+  }
+}

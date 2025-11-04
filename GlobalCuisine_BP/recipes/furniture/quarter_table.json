@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "amp:quarter_table"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "TT",
+      "S "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "T": {
+        "tag": "minecraft:wooden_slabs"
+      }
+    },
+    "result": {
+      "item": "amp:quarter_table",
+      "count": 2
+    }
+  }
+}

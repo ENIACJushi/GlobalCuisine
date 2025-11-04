@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "amp:stone_table"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "SSS",
+      " D "
+    ],
+    "key": {
+      "D": {
+        "item": "minecraft:diorite_wall"
+      },
+      "S": {
+        "item": "minecraft:polished_diorite_slab"
+      }
+    },
+    "result": {
+      "item": "amp:stone_table",
+      "count": 2
+    }
+  }
+}
