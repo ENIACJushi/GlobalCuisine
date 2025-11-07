@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "amp:chilli_chopped"
+    },
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:blaze_powder"
+      },
+      {
+        "item": "minecraft:nether_wart"
+      },
+      {
+        "item": "minecraft:crimson_fungus"
+      },
+      {
+        "item": "minecraft:lava_bucket"
+      },
+      {
+        "item": "minecraft:fire_charge"
+      }
+    ],
+    "result": {
+      "item": "amp:chilli_chopped",
+      "count": 3
+    }
+  }
+}

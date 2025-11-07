@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "amp:rice"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " R ",
+      "RWR",
+      " B "
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:water_bucket"
+      },
+      "R": {
+        "item": "minecraft:wheat_seeds"
+      },
+      "B": {
+        "item": "minecraft:bowl"
+      }
+    },
+    "result": [
+      { "item": "amp:rice", "count": 3 },
+      { "item": "minecraft:bucket", "count": 1, "data": 0 }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "amp:kourou"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "CPC",
+      " B "
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:bowl"
+      },
+      "C": {
+        "item": "minecraft:carrot"
+      },
+      "P": {
+        "item": "minecraft:porkchop"
+      }
+    },
+    "result": { "item": "amp:kourou", "count": 1 }
+  }
+}

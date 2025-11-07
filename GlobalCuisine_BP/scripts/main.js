@@ -31,7 +31,9 @@ system.afterEvents.scriptEventReceive.subscribe((event)=> {
   let item = getPlayerMainHand(event.sourceEntity);
   if (item) {
     world.sendMessage(item.typeId);
+    console.log(item.typeId);
     world.sendMessage(item.getTags().join(', '));
+    console.log(item.getTags().join(', '));
   }
 }, {'namespaces': ['doge']});
 

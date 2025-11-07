@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "amp:choudoufu"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "WDM",
+      "PPP"
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:nether_wart"
+      },
+      "D": {
+        "item": "minecraft:netherbrick"
+      },
+      "M": {
+        "item": "minecraft:crimson_fungus"
+      },
+      "P": {
+        "item": "minecraft:paper"
+      }
+    },
+    "result": {
+      "item": "amp:choudoufu",
+      "count": 3
+    }
+  }
+}

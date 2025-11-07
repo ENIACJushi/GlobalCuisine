@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "amp:bubble_tea"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "LSL",
+      "AMA",
+      "BBB"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:sugar"
+      },
+      "L": {
+        "item": "minecraft:birch_leaves"
+      },
+      "A": {
+        "item": "minecraft:slime_ball"
+      },
+      "M": {
+        "item": "minecraft:milk_bucket"
+      },
+      "B": {
+        "item": "minecraft:glass_bottle"
+      }
+    },
+    "result": {
+      "item": "amp:bubble_tea",
+      "count": 6
+    }
+  }
+}

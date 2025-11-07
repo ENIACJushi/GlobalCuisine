@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "amp:soup_pork"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "CCC",
+      "PWP",
+      " B "
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:kelp"
+      },
+      "P": {
+        "item": "minecraft:porkchop"
+      },
+      "W": {
+        "item": "minecraft:water_bucket"
+      },
+      "B": {
+        "item": "minecraft:bowl"
+      }
+    },
+    "result": [
+      { "item": "amp:soup_pork", "count": 2 },
+      { "item": "minecraft:bucket", "count": 1, "data": 0 }
+    ]
+  }
+}
