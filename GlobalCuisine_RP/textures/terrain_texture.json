@@ -569,9 +569,9 @@
 				"textures/blocks/furniture_amp/stone_stool"
 			]
 		},
-		"steamer_amp": {
+		"amp_steamer": {
 			"textures": [
-				"textures/blocks/furniture_amp/steamer"
+				"textures/blocks/steamer/steamer"
 			]
 		},
 		"baozi_amp": {

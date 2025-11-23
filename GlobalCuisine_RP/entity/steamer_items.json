@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "thlmm:maid",
+      "materials": {
+        "default": "warden",
+        "wing_default": "wing_default",
+        "wind_solid": "warden",
+        "blending": "danmaku_blending",
+        "emissive": "entity_emissive_alpha"
+      },
+      "textures": {
+        "baozi": "textures/entity/steamer/baozi"
+      },
+      "geometry": {
+        "baozi": "geometry.touhou_little_maid.baozi"
+      },
+      "scripts": {
+      },
+      "animations": {
+      },
+      "render_controllers": [
+        "controller.render.amp.steamer.baozi"
+      ]
+    }
+  }
+}

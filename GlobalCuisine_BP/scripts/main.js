@@ -2,12 +2,14 @@ import { system, world } from "@minecraft/server";
 import {BlockCircularStatesManager} from "./src/blocks/BlockCircularStatesManager";
 import {BlockSeatManager} from "./src/blocks/BlockSeatManager";
 import {BlockFoodManager} from "./src/blocks/BlockFoodManager";
+import {SteamerManager} from "./src/blocks/steamer/SteamerManager";
 
 
 system.beforeEvents.startup.subscribe((e) => {
   BlockCircularStatesManager.registerCC(e);
   BlockSeatManager.registerCC(e);
   BlockFoodManager.registerCC(e);
+  SteamerManager.registerCC(e);
 });
 
 world.beforeEvents.playerBreakBlock.subscribe((e) => {
@@ -26,6 +28,11 @@ world.beforeEvents.playerBreakBlock.subscribe((e) => {
   }
 });
 
+world.afterEvents.playerInteractWithBlock.subscribe((e) => {
+  if (!e.player.isSneaking && e.block.typeId === 'minecraft:cauldron') {
+    SteamerManager.placeByCauldron(e);
+  }
+});
 
 system.afterEvents.scriptEventReceive.subscribe((event)=> {
   let item = getPlayerMainHand(event.sourceEntity);

@@ -1,0 +1,37 @@
+{
+  "format_version": "1.18.10",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "amp:steamer_items",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "runtime_identifier": "minecraft:arrow",
+      "properties": {
+        "amp:layer" : { "type": "int", "default": 0, "range":[0, 4], "client_sync": true },
+        "amp:type_0" : { "type": "int", "default": 0, "range":[0, 20], "client_sync": true },
+        "amp:type_1" : { "type": "int", "default": 0, "range":[0, 20], "client_sync": true },
+        "amp:type_2" : { "type": "int", "default": 0, "range":[0, 20], "client_sync": true },
+        "amp:type_3" : { "type": "int", "default": 0, "range":[0, 20], "client_sync": true },
+        "amp:type_4" : { "type": "int", "default": 0, "range":[0, 20], "client_sync": true }
+      }
+    },
+    "component_groups": {
+      "despawn":{ "minecraft:instant_despawn":{ "remove_child_entities": false } }
+    },
+    "components": {
+      "minecraft:movement": { "value": 0 },
+      "minecraft:underwater_movement": { "value": 0 },
+      "minecraft:water_movement": { "drag_factor": 0 },
+      "minecraft:input_ground_controlled": { },
+      "minecraft:damage_sensor": { "triggers": [ { "cause": "all", "deals_damage": false } ] },
+      "minecraft:collision_box": { "width": 0, "height": 0 },
+      "minecraft:pushable": { "is_pushable": false, "is_pushable_by_piston": false },
+      "minecraft:persistent": {},
+      "minecraft:knockback_resistance": { "value": 1.0 },
+      "minecraft:physics": { "has_gravity": false, "has_collision": false, "push_towards_closest_space": false }
+    },
+    "events": {
+      "despawn": { "add": { "component_groups": [ "despawn" ] } }
+    }
+  }
+}
